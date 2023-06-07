@@ -16,19 +16,5 @@ Page not found • Instagram
 5.3 That’s the email kdaartgallery19@gmail.com
 
 
-  <script>
-    window.addEventListener('scroll', function() {
-      var navbar = document.getElementById('navbar');
-      if (window.pageYOffset > 0) {
-        navbar.classList.add('navbar-scrolled');
-      } else {
-        navbar.classList.remove('navbar-scrolled');
-      }
-    });
-
-    function toggleNavbar() {
-      var navbarMenu = document.getElementById('navbarMenu');
-      navbarMenu.classList.toggle('hidden');
-    }
-  </script>
+  
 
