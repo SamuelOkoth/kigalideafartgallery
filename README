@@ -1,0 +1,34 @@
+THE WEBSITE
+1 Use html/Css
+2 CSS frameworks like bootstrap or tailwind are ok but don’t use javascript frameworks like react/vue
+3 Organize the text to create a hero and/or about section
+“We specialise in design,Canvas painting,Multimedia art and printing on t-shirts, sculpture,textile and
+others”
+“Actions speak louder than words. Disability is not inability”
+4 Choose 10 photos (any photos) from the facebook page and create a slider/photo gallery (in
+whatever way you think is best)
+4.1 Put all the photos you use in this folder . The folder already includes the logo.
+5 Create a contact us section.
+5.1 For sending the emails, I recommend Formsubmit
+5.2 Put these social media links in the section Kigali Deaf Art Gallery | Facebook
+KIGALI DEAF ART GALLERY 🎨 (@KigaliDeafArt) / Twitter
+Page not found • Instagram
+5.3 That’s the email kdaartgallery19@gmail.com
+
+
+  <script>
+    window.addEventListener('scroll', function() {
+      var navbar = document.getElementById('navbar');
+      if (window.pageYOffset > 0) {
+        navbar.classList.add('navbar-scrolled');
+      } else {
+        navbar.classList.remove('navbar-scrolled');
+      }
+    });
+
+    function toggleNavbar() {
+      var navbarMenu = document.getElementById('navbarMenu');
+      navbarMenu.classList.toggle('hidden');
+    }
+  </script>
+

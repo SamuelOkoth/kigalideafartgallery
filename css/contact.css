@@ -1,0 +1,64 @@
+.contact {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.contact .contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact-form form input, .contact .contact-form form textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.contact .contact-form form button{
+    color: white;
+    cursor: pointer;
+    width: 90%;
+}
+
+.contact .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .socials .social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contact .socials .social-icons a{
+    margin: 0 10px;
+}
+
+/*media queries screens above 768px*/
+@media screen and (min-width: 768px) {
+    .contact {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact .contact-form {
+        width: 50%;
+    }
+
+    .contact .socials {
+        width: 50%;
+    }
+}

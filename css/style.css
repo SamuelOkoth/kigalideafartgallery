@@ -1,0 +1,125 @@
+@import url(./slider.css);
+@import url(./contact.css);
+
+nav{
+    z-index: 1000;
+}
+
+.navbar-scrolled {
+    background-color: #32091B; /* Change to your desired background color */
+    /* Additional styles for the scrolled state */
+  }
+
+.menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #32091B;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 1000;
+    transition: all;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.menu a:hover {
+    color: #F2BAC9;
+}
+
+
+
+/* Hero Section */
+
+  
+
+
+.hero {
+    height: 70vh;
+    width: 100%;
+    padding: 1rem;
+    background: url(../images/ladyPotrait.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero .hero-content{
+    position: absolute;
+    width: 90%;
+    bottom: 10px;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+    background: rgba(80, 20, 46, 0.78);
+    border-radius: 12px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .hero {
+    height: 90vh;
+    width: 100%;
+    padding: 1rem;
+    background: url(../images/kdag.png);
+    background-size: 100% 100%;
+  }
+
+  .hero .hero-content{
+    position: absolute;
+    bottom: 4%;
+    width: 50%;
+    right: 10px;
+    color: white;
+    text-align: left;
+    padding: 1rem;
+    background: rgba(80, 20, 46, 0.78);
+    border-radius: 12px;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  width: 50%;
+  position: relative;
+  background-color: transparent;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.about .about-content{
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  }
+
+.about .about-image{
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+}
